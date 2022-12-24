@@ -1,0 +1,8 @@
+services:
+  bot:
+    build: .
+
+networks:
+  default:
+    name: bridge-nerwork
+    external: true
